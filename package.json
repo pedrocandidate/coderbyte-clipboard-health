@@ -5,11 +5,18 @@
   "main": " ",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "test:coverage": "jest --coverage",
+    "docs": "jsdoc2md dpk.js > dpk.md",
+    "build": "babel index.js dpk.js -d dist",
+    "start": "npm run build && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^28.1.0",
+    "jsdoc-to-markdown": "^8.0.0"
   }
 }

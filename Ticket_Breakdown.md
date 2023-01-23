@@ -27,9 +27,9 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
   - Tests should be added to ensure that the new column is nullable
 
 #### Time Estimate
-    - 1 hour
-      - 30 minutes for implementation
-      - 30 minutes for new tests
+  - 1 hour
+    - 30 minutes for implementation
+    - 30 minutes for new tests
 
 #### Implementation Details
   - Add a new migration file to the `migrations` folder
@@ -45,9 +45,9 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
   - Tests should be added to ensure that the new field can be ignored
 
 #### Time Estimate
-    - 1 hour
-      - 30 minutes for implementation
-      - 30 minutes for new tests
+  - 1 hour
+    - 30 minutes for implementation
+    - 30 minutes for new tests
 
 #### Implementation Details
   - Add new field to the `Agent` payload
@@ -62,9 +62,9 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
   - Tests should be added to ensure that the new field can be ignored
 
 #### Time Estimate
-    - 1 hour
-      - 30 minutes for implementation
-      - 30 minutes for new tests
+  - 1 hour
+    - 30 minutes for implementation
+    - 30 minutes for new tests
 
 #### Implementation Details
   - Add new field to the `Agent` payload
@@ -77,9 +77,9 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
   - Tests should be added to ensure that the `external_id` is nullable if the agent doesn't have one
 
 #### Time Estimate
-    - 2 hours
-      - 1 hour for implementation
-      - 1 hour for new tests
+  - 2 hours
+    - 1 hour for implementation
+    - 1 hour for new tests
 
 #### Implementation Details
   - Update the `getShiftsByFacility` function to return the `external_id` field
@@ -107,10 +107,10 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
   - Tests should be added to ensure that the `external_id` is nullable if the agent doesn't have one
 
 #### Time Estimate
-    - 2.5 hours
-      - 0.5 hour for new PDF design
-      - 1 hour for implementation
-      - 1 hour for new tests
+  - 2.5 hours
+    - 0.5 hour for new PDF design
+    - 1 hour for implementation
+    - 1 hour for new tests
 
 #### Implementation Details
   - Update the `generateReport` function to generate PDF reports containing the `external_id` field
